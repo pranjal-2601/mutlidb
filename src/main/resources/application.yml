@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    demo:
+      url: jdbc:postgresql://localhost:5433/demo
+      username: gravity
+      password: gravity-26
+      driverClass: org.postgresql.Driver
+#      jpa:
+#        properties:
+#          hibernate:
+#            dialect: org.hibernate.dialect.PostgreSQLDialect
+#            ddl-auto: create-drop
+    cars:
+      url: jdbc:postgresql://localhost:5434/secondary
+      username: gravity_1
+      password: gravity-26
+      driverClass: org.postgresql.Driver
+#      jpa:
+#        properties:
+#          hibernate:
+#            dialect: org.hibernate.dialect.PostgreSQLDialect
+#            ddl-auto: create-drop
+
+facebook:
+  client_Id: abc
+#  redirect_url: zzz
+  client_secret: fds
